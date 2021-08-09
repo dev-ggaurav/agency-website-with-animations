@@ -1,2 +1,37 @@
 @use '../abstracts' as *;
 
+.header{
+    .inner{
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .nav-logo{
+                font-size: $fs-body-xl;
+                font-weight: 600;
+                letter-spacing: 2px;
+                color: var(--clr-brand-100);
+            }
+
+            .nav-menu{
+                display: none;
+
+                .nav-item{
+                    .nav-link{
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .dwnld-btn{
+                display: none;
+            }
+
+
+            .hamburger{
+                cursor: pointer;
+            }
+        }
+    }
+}
