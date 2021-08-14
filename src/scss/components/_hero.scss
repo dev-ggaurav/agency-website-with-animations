@@ -1,0 +1,20 @@
+.hero{
+    .hero-title{
+        font-size: var(--fs-heading-300);
+        margin-bottom: .75rem;
+        color: var(--clr-neutral-900);
+    }
+
+    .hero-description{
+        color: var(--clr-neutral-700);
+    }
+
+    .cta-1{
+        margin: 2rem 0;
+    }
+
+    .hero-images{
+        max-width: 300px;
+        margin: 3rem auto;
+    }
+}
